@@ -1,0 +1,476 @@
+/*pour les ordinateurs et ecran larges*/
+@media only screen and (min-width: 768px)  {
+
+   /*css du bloc pricincipal permettant d'aligner les sous blocs les uns après les autres.*/
+    .main{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: Poppins-Regular, sans-serif;
+    }
+    /*css du bloc profil*/
+    .profil{
+        width: 35%;
+        background-color: #5DCBFC;
+        left: 0;
+        color: #fff;
+    }
+    /*css des paragraphe à l'interieur du bloc profil*/
+    .profil p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    /*css de la photo de profil du web-dev*/
+    .image{
+        border-radius: 100%;
+        border-color: #fff;
+        border: 2px solid;
+        width: 250px;
+        height: 250px;
+        margin-left: 65px;
+        margin-top: 25px;
+        padding: 10px;
+    }
+    /*css des icones se trouvant dans le bloc coordonnés web-dev*/
+    .ico{
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #fff;
+    }
+    /*css imposant un style à tous les liens du document*/
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
+    color: red;
+    }
+    /*css permettant d'aligner verticalement les informations à coté des icones*/
+    .info-ico{
+        display: flex;
+        align-items:center;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    /*css des informations disposées à coté des icones*/
+    .align-info{
+        margin-left: 10px;
+    }
+    /*début css des differentes titres du bloc contenant l'experience du web-dev*/
+    .header-exp-pc{
+        color: #fff;
+        background-color: #3D5466;
+        width: 96%;
+        border-radius: 0px 20px 20px 0px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+    .header-exp-m{
+        display: none;
+        visibility: hidden;
+        color: #fff;
+        background-color: #3D5466;
+        width: 90%;
+       /* height: 100%;*/
+        border-radius: 20px 20px 20px 20px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+        margin-left: 24px;
+        margin-right: 15px;
+    }
+
+    .name{
+        text-align: center;
+    }
+
+    .work{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .title-exp{
+        display: flex;
+        padding-left: 15px;
+        padding-top:6px;
+        padding-bottom: 5px;
+        color: #fff;
+    }
+
+    .bar-a1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-a2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 75%;
+        border-radius: 15px;
+        height: 20px;
+    }
+    .bar-b1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-b2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 68%;
+        border-radius: 15px;
+        height: 20px;
+    }
+    .bar-c1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-c2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 81%;
+        border-radius: 15px;
+        height: 20px;
+    }
+    .subtitle{
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    .date{
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .title{
+        margin-left: 35px;
+    }
+    .experience p{ 
+        padding-left: 30px;
+    }
+
+    .experience{
+        text-align:left;
+        width: 65%;
+        background-color: #fff;
+    }
+    .title-exp{
+        margin-top: -16px;
+        width: 60%;
+        padding-left: 30px;
+        background-color: #5DCBFC;
+        border-color: #fff;
+        border-radius: 15px;
+    }
+
+    .section{
+        border: 2px solid;
+        border-color: #3D5466;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+    /*fin css des differentes titres du bloc contenant l'experience du web-dev*/
+    /*css des differentes listes à puces du document*/
+    .list-1{
+        font-size: 20px;
+    }
+    .list-2{
+        font-size: 20px;
+    }
+    /*css des titres figurant dans le bloc expérience du web-dev*/
+    .title-special{
+        margin-top: -16px;
+        width: 80%;
+        padding-left: 30px;
+        background-color: #5DCBFC;
+        border-color: #fff;
+        border-radius: 15px;
+        padding-top: 6px;
+        padding-bottom: 5px;
+        color: #fff;
+    }
+    /*css des paragraphe dans le bloc experience du web-dev*/
+    .texte{
+        margin-left: -15px;
+        font-size: 20px;
+    }
+    /*css du trait plein se trouvant en dessous des titres principaux du bloc profil du web-dev*/
+    .line-hr{
+        margin-left: 30px;
+        margin-top: -3px;
+        width: 50%;
+        padding: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+}
+
+/*pour les téléphones*/
+@media only screen and (max-width: 540px)  {
+
+    /*css du bloc pricincipal permettant d'aligner les sous blocs les uns après les autres.*/
+     .main{
+         display: bolck;
+         margin-left: 10px;
+         margin-right: 10px;
+         font-family: candara /*Poppins-Regular, sans-serif;*/
+     }
+     /*css du bloc profil*/
+     .profil{
+         width: 100%;
+         background-color: #5DCBFC;
+         left: 0;
+         color: #fff;
+     }
+     /*css des paragraphe à l'interieur du bloc profil*/
+     .profil p{
+         margin-left: 10px;
+         margin-right: 10px;
+         font-size: 18px;
+     }
+     /*css de la photo de profil du web-dev*/
+     .photo{
+         text-align: center;
+        padding-top: 30px;
+     }
+     .image{
+         border-radius: 100%;
+         border-color: #fff;
+         border: 2px solid;
+         width: 250px;
+         height: 250px;
+         /*margin-left: 65px;
+         margin-top: 25px;*/
+         justify-content: center;
+         padding: 10px;
+     }
+     /*css des icones se trouvant dans le bloc coordonnés web-dev*/
+     .ico{
+     width: 25px;
+     height: 25px;
+     border: 2px solid;
+     border-radius: 100%;
+     padding: 5px;
+     background-color: #fff;
+     }
+     /*css imposant un style à tous les liens du document*/
+     a{
+         text-decoration: none;
+         color: #fff;
+     }
+     a:hover{
+        color: red;
+     }
+     /*css permettant d'aligner verticalement les informations à coté des icones*/
+     .info-ico{
+         display: flex;
+         align-items:center;
+         margin-bottom: 15px;
+         margin-left: 10px;
+         font-size: 20px;
+     }
+     /*css des informations disposées à coté des icones*/
+     .align-info{
+         margin-left: 10px;
+     }
+     .align-info a{
+         text-decoration: none;
+         color: #fff;
+     }
+     /*début css des differentes titres du bloc contenant l'experience du web-dev*/
+     .header-exp-m{
+         /*display: none;
+         visibility: hidden;*/
+         color: #fff;
+         background-color: #3D5466;
+         width: 90%;
+        /* height: 100%;*/
+         border-radius: 20px 20px 20px 20px;
+         padding-top: 1px;
+         padding-bottom: 0px;
+         margin-left: 24px;
+         margin-right: 15px;
+     }
+     .header-exp-pc{
+        display: none;
+        visibility: hidden;
+        color: #fff;
+        background-color: #3D5466;
+        width: 96%;
+        border-radius: 0px 20px 20px 0px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+ 
+     .name{
+         text-align: center;
+     }
+ 
+     .work{
+         text-align: center;
+         padding-bottom: 5px;
+     }
+ 
+     .title-exp{
+         padding-left: 15px;
+         padding-top:6px;
+         padding-bottom: 5px;
+         color: #fff;
+     }
+     .bar-a1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-a2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 75%;
+        border-radius: 15px;
+        height: 20px;
+    }
+    .bar-b1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-b2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 68%;
+        border-radius: 15px;
+        height: 20px;
+    }
+    .bar-c1{
+        padding: 2px;
+        border-radius: 15px;
+        margin: 2px;
+        width: 86%;
+        background-color: #3D5466;
+    }
+    .bar-c2{
+        text-align: center;
+        color: #3D5466;
+        background-color: #fff;
+        width: 81%;
+        border-radius: 15px;
+        height: 20px;
+    }
+     .subtitle{
+         padding-left: 15px;
+         font-size: 20px;
+     }
+ 
+     .date{
+         padding-left: 30px;
+         font-size: 15px;
+     }
+     .title{
+         margin-left: 35px;
+     }
+     .experience p{ 
+         padding-left: 30px;
+     }
+ 
+     .experience{
+         text-align:left;
+         width: 100%;
+         background-color: #fff;
+     }
+     .title-exp{
+         margin-top: -16px;
+         width: 60%;
+         padding-left: 30px;
+         background-color: #5DCBFC;
+         border-color: #fff;
+         border-radius: 15px;
+     }
+ 
+     .section{
+         border: 2px solid;
+         border-color: #3D5466;
+         border-radius: 5px;
+         background-color: #ffffff;
+         margin-left: 10px;
+         margin-right: 30px;
+         margin-top: 20px;
+     }
+     /*fin css des differentes titres du bloc contenant l'experience du web-dev*/
+     /*css des differentes listes à puces du document*/
+     .list-1{
+         font-size: 20px;
+     }
+     .list-2{
+         font-size: 20px;
+     }
+     /*css des titres figurant dans le bloc expérience du web-dev*/
+
+     .s-speciale{
+        border: 2px solid;
+        border-color: #3D5466;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 34px;
+     }
+
+     .s-f{
+        margin-bottom: 35px;
+        border: 2px solid;
+        border-color: #3D5466;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-top: -13px;
+     }
+     .title-special{
+         margin-top: -30px;
+         width: 80%;
+         padding-left: 30px;
+         background-color: #5DCBFC;
+         border-color: #fff;
+         border-radius: 15px;
+         padding-top: 6px;
+         padding-bottom: 5px;
+         color: #fff;
+     }
+     /*css des paragraphe dans le bloc experience du web-dev*/
+     .texte{
+         margin-left: -15px;
+         font-size: 20px;
+     }
+     /*css du trait plein se trouvant en dessous des titres principaux du bloc profil du web-dev*/
+     .line-hr{
+         margin-left: 30px;
+         margin-top: -3px;
+         width: 50%;
+         padding: 2px;
+         background-color: #fff;
+         border-radius: 5px;
+     }
+}
